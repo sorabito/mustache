@@ -3,12 +3,10 @@ baseline: spec
 	<baseline>
 
 	spec for: #'common' do: [
-		spec project: 'JSON' with: [
+		spec package: 'JSON' with: [
 				spec
-					className: #ConfigurationOfJSON;
-					versionString: #'stable';
-					loads: #('default' );
-					repository: 'http://smalltalkhub.com/mc/PharoExtras/JSON/main/' ].
+					file: 'JSON-PaulDeBruicker.39';
+					repository: 'https://squeaksource.blueplane.jp/AsLegacyLibs' ].
 		spec 
 			package: 'Mustache-Core';
 			package: 'Mustache-Tests' with: [
